@@ -11,7 +11,7 @@
 ### Локально:
 
 1. клонирование репозитория
-   git clone https://github.com/KsFomina/loss-predictor.git
+   git clone https://github.com/KsFomina/loss_predictor.git
    cd loss-predictor
 
 2. Создание и активирование виртуалного окружения
@@ -134,7 +134,7 @@ requirements-model.txt
 .env.example
 ```
 
-##Тесты
+## Тесты
 pytest -v
 
 Тестами покрыты следующие сценарии:
