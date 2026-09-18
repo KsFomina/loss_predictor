@@ -1,0 +1,12 @@
+.venv/
+.env
+*.db
+pycache/
+.pytest_cache/
+.vscode/
+.git/
+.gitignore
+tests/
+*.md
+data/
+conftest.py

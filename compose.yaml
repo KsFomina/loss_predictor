@@ -1,0 +1,12 @@
+services:
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      DATABASE_URL: sqlite:////app/data/app.db
+      MODEL_PATH: /app/artifacts/model.joblib
+      MODEL_METADATA_PATH: /app/artifacts/model_metadata.json
+    volumes:
+      - ./data:/app/data
+    entrypoint: ["./entrypoint.sh"]
